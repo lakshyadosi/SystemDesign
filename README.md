@@ -60,7 +60,7 @@ Shared Code: When multiple related classes share common functionality.
 Example: A Vehicle class that has a common method like startEngine(), but different types of vehicles (like Car and Truck) can implement their own drive() method.
 Partial Implementation: When you want to provide some default behavior but still require certain methods to be overridden.
 
-#####Interface
+#### Interface
 Definition: An interface only declares methods (usually with no implementation).
 Use Cases:
 Multiple Implementations: When different classes, possibly unrelated, need to implement the same methods.
