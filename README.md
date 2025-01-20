@@ -1,6 +1,6 @@
 # SystemDesign
 ## class diagram
-![](https://github.com/lakshyadosi/SystemDesign/blob/main/UML/class_library_management.drawio.png)
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72d3654b-44b5-4708-a634-527534bd0937_3772x3040.png)
 
 ### Key Concepts Summary
 #### 1. Association
