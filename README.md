@@ -53,5 +53,21 @@ Association: Person --- (owns) --- Phone
 Person - Pet:
 Aggregation: Person <>--- (has) --- Pet
 
+####
+
+##### Abstract Class
+Definition: An abstract class can have both implemented and unimplemented methods.
+Use Cases:
+Shared Code: When multiple related classes share common functionality.
+Example: A Vehicle class that has a common method like startEngine(), but different types of vehicles (like Car and Truck) can implement their own drive() method.
+Partial Implementation: When you want to provide some default behavior but still require certain methods to be overridden.
+
+##### Interface
+Definition: An interface only declares methods (usually with no implementation).
+Use Cases:
+Multiple Implementations: When different classes, possibly unrelated, need to implement the same methods.
+Example: An animal interface with a method called makeSound(). Both Dog and Cat classes can implement this method in their own way.
+Contract for Behavior: When you want to define capabilities without worrying about how they are implemented.
+
 #### References:
 https://blog.algomaster.io/p/uml-class-diagram-explained-with-examples
