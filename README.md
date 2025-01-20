@@ -33,3 +33,6 @@ Relationship Type	Example Pair	Description	Existence Independence
 Association	Student - Course	Students enroll in courses.	Yes, both can exist independently.
 Aggregation	Person - Pet	A person has multiple pets.	Yes, pets can exist independently of the person.
 Composition	House - Room
+
+### References:
+https://blog.algomaster.io/p/uml-class-diagram-explained-with-examples
