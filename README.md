@@ -34,5 +34,24 @@ Association	Student - Course	Students enroll in courses.	Yes, both can exist ind
 Aggregation	Person - Pet	A person has multiple pets.	Yes, pets can exist independently of the person.
 Composition	House - Room
 
-### References:
+#### Summary of Relationships
+1. Person and Phone
+Type: Association
+Definition: A loose relationship where the entities (person and phone) can exist independently.
+Key Points:
+Ownership does not imply dependency: A person can sell or discard their phone without affecting their identity.
+Nature of relationship: More transactional. Phones are tools and can be replaced.
+2. Person and Pet
+Type: Aggregation
+Definition: A whole-part relationship where pets are considered parts of a person's life.
+Key Points:
+Significant connection: Pets are integral to a person’s identity and well-being.
+Nature of relationship: Represents care and companionship. Pets cannot be simply treated as objects and often form emotional bonds with their owners.
+Visual Summary
+Person - Phone:
+Association: Person --- (owns) --- Phone
+Person - Pet:
+Aggregation: Person <>--- (has) --- Pet
+
+#### References:
 https://blog.algomaster.io/p/uml-class-diagram-explained-with-examples
