@@ -69,3 +69,4 @@ Contract for Behavior: When you want to define capabilities without worrying abo
 
 #### References:
 https://blog.algomaster.io/p/uml-class-diagram-explained-with-examples
+https://www.linkedin.com/pulse/evolution-code-craftsmanship-continuous-journey-abstract-dadhich-ptmmf?trk=public_post_feed-article-content
